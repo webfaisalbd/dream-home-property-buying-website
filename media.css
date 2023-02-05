@@ -14,9 +14,16 @@
     }
 
     /* top selling apartment */
-    .top_selling .top_selling_content  {
+    .top_selling .top_selling_content {
         padding-top: 240px;
     }
+
+    /* we provide section  */
+    .we_provide .we_provide_content .we_provide_box {
+        display: flex;
+        flex-direction: column;
+    }
+
 
 }
 
@@ -26,10 +33,22 @@
         top: 50px;
         right: 40px;
     }
-    header nav .right_bx ul li a{
+
+    header nav .right_bx ul li a {
         color: yellow;
     }
+
     header nav .right_bx ul li:nth-last-child(1) a {
         color: yellow;
     }
+
+    /* we provide section  */
+    .we_provide .we_provide_content .we_provide_box .we_provide_description .content {
+        /* border: 1px solid black; */
+         display: flex; 
+        flex-direction: column;
+    }
+
+
+
 }
