@@ -1,0 +1,30 @@
+@media (max-width: 850px) {
+    header .content .choose_bx .select {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    header .content .choose_bx .select .card {
+        width: 45%;
+    }
+
+    header .content .choose_bx .select .card:nth-last-child(1) {
+        width: 100%;
+        margin-top: 10px;
+    }
+
+}
+
+@media (max-width: 580px) {
+    header nav .right_bx ul {
+        position: absolute;
+        top: 50px;
+        right: 40px;
+    }
+    header nav .right_bx ul li a{
+        color: yellow;
+    }
+    header nav .right_bx ul li:nth-last-child(1) a {
+        color: yellow;
+    }
+}
