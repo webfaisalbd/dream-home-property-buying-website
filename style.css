@@ -318,7 +318,83 @@ header .content .choose_bx .select .card button {
 /* top selling  */
 .top_selling {
     width: 100%;
-    height: 300px;
+    height: auto;
     margin-top: -50px;
     background: rgb(241, 248, 248);
 }
+
+.top_selling .top_selling_content  {
+    padding-top: 100px;
+    padding-bottom: 80px;
+    width: 85%;
+    margin: auto;
+}
+
+.top_selling .top_selling_content .heading {
+    text-align: center;
+    max-width: 400px;
+    margin: auto;
+    letter-spacing: 2px;
+    padding-bottom: 50px;
+}
+
+.top_selling_content .top_selling_box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+ 
+.top_selling_content .top_selling_box .top_selling_item {
+    width: 200px;
+    height: 250px;
+    border-radius: 15px;
+
+    position: relative;
+}
+
+.top_selling_content .top_selling_box .top_selling_item img {
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+}
+
+.top_selling_content .top_selling_box .top_selling_item .bi {
+    position: absolute;
+    right: 8px;
+    top: 5px;
+    color: red;
+}
+.top_selling_content .top_selling_box .top_selling_item .bi:hover {
+    color: blue;
+}
+
+.top_selling_content .top_selling_box .top_selling_item .bi::after {
+    content: '';
+    position: absolute;
+    width: 165%;
+    height: 109%;
+    background: rgba(194, 194, 194, 0.6);
+    left: -5px;
+    top: -2px;
+    border-radius: 50%;
+    backdrop-filter: blur(0.4px);
+
+}
+
+.top_selling_content .top_selling_box .top_selling_item div {
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    background: rgba(194, 194, 194, 0.6);
+    color: white;
+    height: 40px;    
+    width: 100%;
+    padding-top: 2%;
+    text-align: center;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    backdrop-filter: blur(2px);
+}
+
