@@ -49,6 +49,17 @@
         flex-direction: column;
     }
 
+    /* website counter */
+    .website_counter .counter_content .counter_box {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .website_counter .counter_content .counter_box .counter_box_half_div {
+        display: flex;
+        flex-direction: column;
+    }
+
 
 
 }

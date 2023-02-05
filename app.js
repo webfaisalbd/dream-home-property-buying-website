@@ -106,3 +106,36 @@ people_next.addEventListener('click', () => {
     // console.log(nextDay, nextDate, nextMonth)
     appointmentDate.textContent = `${nextDay}, ${nextDate} ${nextMonth}`;
 })
+
+
+
+
+
+// counter start
+let sold = document.getElementById('sold');
+let client = document.getElementById('client');
+let family = document.getElementById('family');
+let experience = document.getElementById('experience');
+
+var num = 0;
+
+function counter(upTo, idName) {
+    if(num<upTo){
+        num++;
+        idName.innerText = num;
+    }
+}
+
+// for sold 
+setInterval(()=> counter(500,sold), 100);
+
+// for client 
+setInterval(()=> counter(400,client), 100);
+
+// for sold 
+setInterval(()=> counter(350,family), 100);
+
+// for client 
+setInterval(()=> counter(12,experience), 100);
+
+// counter end 

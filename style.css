@@ -250,7 +250,7 @@ header .content .choose_bx .select {
     width: 100%;
     height: auto;
     background: #fff;
-    box-shadow: 0px 5px 15px -10px rbga(214, 214, 214);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     border-radius: 0px 10px 10px 10px;
 
     display: flex;
@@ -472,5 +472,46 @@ header .content .choose_bx .select .card button {
 
 }
 
-
 /* we provide end */
+
+
+/* website_counter start  */
+.website_counter {
+    padding: 40px 0;
+    background: linear-gradient(to right, rgb(241, 248, 248), lemonchiffon);
+}
+
+.website_counter .counter_content {
+    width: 85%;
+    margin: auto;
+    padding: 20px 100px;
+}
+
+.website_counter .counter_content .counter_box {
+    display: flex;
+    gap: 10px;
+    justify-content: space-evenly;
+}
+
+.website_counter .counter_content .counter_box .counter_box_half_div {
+    display: flex;
+    /* border: 1px solid black; */
+    gap: 20px;
+    justify-content: space-between;
+}
+
+
+.website_counter .counter_content .counter_box .counter_item {
+    /* border: 1px solid black; */
+    text-align: center;
+    padding: 20px;
+}
+
+.website_counter .counter_content .counter_box .counter_item h3 {
+    font-size: 32px;
+}
+
+.website_counter .counter_content .counter_box .counter_item p {
+    color: #B0C4DE;
+}
+/* website_counter end  */
