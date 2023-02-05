@@ -1,13 +1,96 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dream Home Property Buying Website</title>
     <link rel="stylesheet" href="style.css">
+    <!-- bootstrap icon cdn  -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
 </head>
+
 <body>
+    <header>
+        <nav>
+            <h4><i class="bi bi-house-fill"></i> d.Home</h4>
+            <div class="right_bx">
+                <ul>
+                    <li><a href="">Support</a></li>
+                    <li><a href=""><i class="bi bi-globe"></i> Language</a></li>
+                    <li><a href="">List Your Property</a></li>
+                </ul>
+                <div class="account_bx">
+                    <i class="bi bi-app-indicator"></i>
+                    <i class="bi bi-person-circle"></i>
+                </div>
+            </div>
+        </nav>
+        <div class="content">
+            <div class="content_bx">
+                <h1>Dream Home</h1>
+                <p class="motto">Find thousands of properties that are perfect for you</p>
+                <p class="number_of_room">2 Master Bedrooms, 1 kitchen</p>
+                <div class="weather">
+                    <h5>24° C <span>warmley weather</span></h5>
+                </div>
+                <div class="content_btn">
+                    <i class="bi bi-arrow-left-circle"></i>
+                    <i class="bi bi-arrow-right-circle"></i>
+                </div>
+
+                <div class="content_images_bx">
+                    <div class="card">
+                        <img src="images/room3.png" alt="">
+                    </div>
+                    <div class="card">
+                        <img src="images/room2.png" alt="">
+                    </div>
+                    <div class="card">
+                        <img src="images/room1.png" alt="">
+                        <h6>+6</h6>
+                    </div>
+                </div>
+            </div>
+
+            <div class="choose_bx">
+                <div class="stay_bx">
+                    <button><i class="bi bi-house-door-fill"></i></button>
+                    <button><i class="bi bi-star-fill"></i></button>
+                    <button><i class="bi bi-tv-fill"></i></button>
+                </div>
+                <div class="select">
+                    <div class="card">
+                        <h5>City</h5>
+                        <input type="text" value="Vancouver">
+                        <input type="text" value="Canada">
+                    </div>
+                    <div class="card">
+                        <h5>People</h5>
+                        <input type="text" value="3 People" id="people">
+                        <div>
+                            <button id="people_less">Less</button>
+                            <button id="people_more">More</button>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="left_box">
+                            <h5>Appointment</h5>
+                            <h3>Sun, 05 Feb</h3>
+                            <input type="date" id="setDate" value="2022-05-02">
+                            <button id="people_less">Less</button>
+                            <button id="people_more">More</button>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
     
+
+    <script src="app.js"></script>
 </body>
+
 </html>
