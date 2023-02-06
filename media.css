@@ -60,6 +60,15 @@
         flex-direction: column;
     }
 
+    /* footer  */
+    .footer_section .footer_content .footer_link {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        max-width: 500px;
+        margin: 0 auto;
+    }
+
 
 
 }

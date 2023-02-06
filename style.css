@@ -9,12 +9,11 @@
 }
 
 html {
-    /* font-family: 'Lobster', cursive; */
     font-family: 'Poppins', sans-serif;
 }
 
 
-
+/* header section start */
 header {
     width: 85%;
     height: 85vh;
@@ -311,7 +310,16 @@ header .content .choose_bx .select .card button {
     transition: 0.3s linear;
 }
 
-/* content end */
+.title_color {
+    color: aqua;
+}
+
+/* header section end */
+
+
+
+
+
 
 
 
@@ -434,6 +442,7 @@ header .content .choose_bx .select .card button {
     display: flex;
     flex: 40%;
 }
+
 .we_provide .we_provide_content .we_provide_box .we_provide_img img {
     width: 100%;
     height: 100%;
@@ -475,6 +484,10 @@ header .content .choose_bx .select .card button {
 /* we provide end */
 
 
+
+
+
+
 /* website_counter start  */
 .website_counter {
     padding: 40px 0;
@@ -514,4 +527,79 @@ header .content .choose_bx .select .card button {
 .website_counter .counter_content .counter_box .counter_item p {
     color: #B0C4DE;
 }
+
 /* website_counter end  */
+
+
+
+
+
+
+
+
+/* footer start  */
+.footer_section {
+    padding: 40px 0;
+}
+
+.footer_section .footer_content {
+    width: 65%;
+    margin: 0 auto;
+    /* background: red; */
+}
+
+.footer_section .footer_content .icon_div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.footer_section .footer_content .icon_div .single_icon {
+    /* border: 1px solid #000000;   */
+    padding: 5px;
+}
+
+.footer_section .footer_content .icon_div .bi {
+    font-size: 48px;
+    cursor: pointer;
+}
+
+.footer_section .footer_content .icon_div .bi-facebook {
+    color: #3b5998;
+}
+
+.footer_section .footer_content .icon_div .bi-skype {
+    color: #0099D8;
+}
+
+.footer_section .footer_content .icon_div .bi-instagram {
+    color: #FF0051;
+}
+
+.footer_section .footer_content .icon_div .bi-linkedin {
+    color: #0C64C5;
+}
+
+
+
+.footer_section .footer_content .footer_link {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.copyright {
+    min-height: 50px;
+    background: rgb(241, 248, 248);
+}
+
+.copyright p {
+    text-align: center;
+    padding: 13px;
+    color:  #B0C4DE;
+}
+
+/* footer end  */
